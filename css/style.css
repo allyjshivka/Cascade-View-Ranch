@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+/*Reset*/
+*{box-sizing: border-box;}
+html,body {margin: 0;}
+div,section,header,footer,nav {
+    float: left;
+    display: block;
+}
+
+/********Grid***********/
+
+/*Wrapper - Wraps around sections*/
+.wrapper {
+    width: 100%;
+}
+
+/*Div is always 100% width no matter the device*/
+.four-column {
+    width: 100%;
+}
+
+/*Div is always 75% width no matter the device*/
+.three-column {
+    width: 75%;
+}
+
+/*Div is always 50% width no matter the device*/
+.two-column {
+    width: 50%;
+}
+
+/*Div is always 25% width no matter the device*/
+.one-column {
+    width: 25%;
+}
+
+/*Div is 75% width on desktop and 100% on mobile*/
+.three-four-column {
+    width: 75%;
+}
+
+/*Div is 50% width on desktop and 100% on mobile*/
+.two-four-column {
+    width: 50%;
+}
+
+/*Div is 25% width on desktop and 100% on mobile*/
+.one-four-column {
+    width: 25%;
+}
+
+/********Padding Classes***********/
+
+/*No Padding At All*/
+.padding-zero {
+    padding: 0;
+}
+
+/*1% padding*/
+.padding-one {
+    padding: 1%;
+}
+
+/*2% padding*/
+.padding-two {
+    padding: 2%;
+}
+
+/*3% padding*/
+.padding-three {
+    padding: 3%;
+}
+
+/*4% padding*/
+.padding-four {
+    padding: 4%;
+}
+
+/*5% padding*/
+.padding-five {
+    padding: 5%;
+}
+
+/*6% padding*/
+.padding-six {
+    padding: 6%;
+}
+
+/************Image Formating********/
+/*Makes images fit proportionally into wherever they are*/
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/*********Color Backgrounds**************/
+.green-background {
+    background-color: #3d9506;
+}
+
+.yellow-background {
+    background-color: #f09633;
+}
+
+.red-background {
+        background-color: #c33d18;
+}
+
+.white-background {
+    background-color: #ffffff;
+}
+
+/****************Buttons**************/
+/*Blue Button*/
+.blue-btn {
+    background-color: #244afb;
+    color: #ffffff;
+    font-size:16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    padding: 2% 3%;
+    text-decoration:none;
+}
+
+/*Making Sure the Link Color Doesn't Change After You Visit The Page*/
+.blue-btn:visited {
+    color: #ffffff;
+}
+
+.black-btn {
+    background-color: #000000;
+    color: #ffffff;
+    font-size:16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    padding: 2% 3%;
+    text-decoration:none;
+}
+
+/*Making Sure the Link Color Doesn't Change After You Visit The Page*/
+.black-btn:visited {
+    color: #ffffff;
+}
+
+/************Logo**********/
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: left;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+/************Fonts***************/
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color:#3d9506;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color:#3d9506;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color:#c33d18;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color:#222222;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.charcoal-text {
+    color: #222222;
+}
+
+@media (max-width:768px) {
+
+    /*Div is 75% width on desktop and 100% on mobile*/
+    .three-four-column {
+        width: 100%;
+    }
+
+    /*Div is 50% width on desktop and 100% on mobile*/
+    .two-four-column {
+        width: 100%;
+    }
+
+    /*Div is 25% width on desktop and 100% on mobile*/
+    .one-four-column {
+        width: 100%;
+    }
+
+}
