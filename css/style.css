@@ -200,6 +200,13 @@ p {
     color: #222222;
 }
 
+/*Owl Change*/
+.owl-theme .owl-dots,
+.owl-theme .owl-nav{
+    float: none;
+    margin: 10px 0;
+}
+
 @media (max-width:768px) {
 
     /*Div is 75% width on desktop and 100% on mobile*/
