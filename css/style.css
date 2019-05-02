@@ -96,6 +96,12 @@ img {
     padding: 0;
 }
 
+.center-img {
+    display: block;
+    margin: auto;
+    margin-right: auto;
+}
+
 /*********Color Backgrounds**************/
 .green-background {
     background-color: #3d9506;
@@ -200,12 +206,29 @@ p {
     color: #222222;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /*Owl Change*/
 .owl-theme .owl-dots,
 .owl-theme .owl-nav{
     float: none;
     margin: 10px 0;
 }
+
+/*********Hiding Images At Specific Screen Sizes**********/
+
+/*Hides When on Desktop, Shows on Mobile*/
+.desktop-hide {
+    display: none;
+}
+
+/*Shows When on Desktop, Hides on Mobile*/
+.mobile-hide {
+    display: block;
+}
+
 
 @media (max-width:768px) {
 
@@ -222,6 +245,21 @@ p {
     /*Div is 25% width on desktop and 100% on mobile*/
     .one-four-column {
         width: 100%;
+    }
+
+    /*Logo Centered on Mobile*/
+    .logo {
+        text-align: center;
+    }
+
+    /*Hides When on Desktop, Shows on Mobile*/
+    .desktop-hide {
+        display:block;
+    }
+
+    /*Shows When on Desktop, Hides on Mobile*/
+    .mobile-hide {
+        display: none;
     }
 
 }
