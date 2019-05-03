@@ -155,17 +155,99 @@ img {
 /************Store Specific CSS**********/
 
 #storeslider.owl-carousel .owl-stage-outer{
-
    float:none;
-
 }
 
 #storeslider.owl-carousel .item{
-
    width:100%;
-
    text-align: center;
+}
 
+/*********Home Page Slideshow**********/
+
+/*slideshow*/
+
+.slider{
+    width: 1000px;
+    height: 400px;
+    background: url("albany can code/cascadeview images/img10.jpg");
+    animation: slide 25s infinite;
+    margin: 100px auto;
+    background-size: 100%;
+
+}
+@keyframes slide {
+    10%{
+        background: url("albany can code/cascadeview images/img10.jpg");
+        background-size: 100%;
+
+    }
+    20%{
+        background: url("albany can code/cascadeview images/img1.jpg");
+        background-size: 100%;
+
+    }
+    30%{
+        background: url("albany can code/cascadeview images/img3.jpg");
+        background-size: 100%;
+
+    }
+    40%{
+        background: url("albany can code/cascadeview images/img5.jpg");
+        background-size: 100%;
+    }
+    50%{
+        background: url("albany can code/cascadeview images/img7.jpg");
+        background-size: 100%;
+
+    }
+    60%{
+        background: url("albany can code/cascadeview images/img6.jpg");
+        background-size: 100%;
+    }
+    70%{
+        background: url("albany can code/cascadeview images/img9.jpg");
+        background-size: 100%;
+
+    }
+    80%{
+         background: url("albany can code/cascadeview images/img.jpg");
+         background-size: 100%;
+    }
+    90%{
+        background: url("albany can code/cascadeview images/img2.jpg");
+        background-size: 100%;
+
+    }
+    100%{
+        background: url("albany can code/cascadeview images/img10.jpg");
+        background-size: 100%;
+    }
+}
+.sale {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+.seasonal:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.special {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.specialevent:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.images{
+    width: 100%;
+    height: 400px;
 }
 
 /************Logo and Header**********/
@@ -317,5 +399,11 @@ p {
 
     .mobile-center {
     text-align:center;
+    }
+
+    /*Homepage Slideshow*/
+    .sale {
+      width: 100%;
+      height:200px;
     }
 }
