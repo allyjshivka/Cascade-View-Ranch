@@ -155,14 +155,19 @@ img {
 
 /************Store Specific CSS**********/
 
-#storeslider.owl-carousel .owl-stage-outer{
+#storeslider.owl-carousel .owl-stage-outer,
+#productslider.owl-carousel .owl-stage-outer,
+#eventslider.owl-carousel .owl-stage-outer{
    float:none;
 }
 
-#storeslider.owl-carousel .item{
+#storeslider.owl-carousel .item,
+#productslider.owl-carousel .item,
+#eventslider.owl-carousel .item{
    width:100%;
    text-align: center;
 }
+
 
 /*********Home Page Slideshow**********/
 
