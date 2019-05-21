@@ -177,15 +177,17 @@ img {
 /*slideshow*/
 
 .slider{
+    max-width: 100%;
     width: 1000px;
     height: 400px;
+    max-height: 100%;
     background: url("img/img10.jpg");
     animation: slide 25s infinite;
-    background-size: 100%;
+    background-size: cover;
     margin: 50px 200px 50px 170px;
     padding:40px 40px 40px 0px;
     box-shadow: 0px 0px 5px 2px grey;
-    background-position: center;
+    background-position: center center;
 }
 @keyframes slide {
     10%{
@@ -194,26 +196,26 @@ img {
 
     }
     20%{
-        background: url("img/img1.jpg");
+        background: url("img/img16.jpg");
         background-size: 100%;
 
     }
     30%{
-        background: url("img/img3.jpg");
+        background: url("img/shop.jpg");
         background-size: 100%;
 
     }
     40%{
-        background: url("img/img5.jpg");
+        background: url("img/wedding3.jpg");
         background-size: 100%;
     }
     50%{
-        background: url("img/img7.jpg");
+        background: url("img/bright-clouds-country-440731.jpg");
         background-size: 100%;
 
     }
     60%{
-        background: url("img/img6.jpg");
+        background: url("img/animal-blur-close-up-678448.jpg");
         background-size: 100%;
     }
     70%{
@@ -289,6 +291,15 @@ img {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+.sale-text P {
+        color:white;
+        font-style: italic;
+}
+.sale-text h2{
+    color: #ff5200;
+}
+
+
 .special {
   float: left;
   width: 50%;
@@ -299,12 +310,15 @@ img {
   display: table;
   clear: both;
 }
-
-
-
-
-
-
+.special h1{
+    color: #f7e406;
+}
+.special p {
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    word-spacing: 3px;
+}
 
 
 /************Logo and Header**********/
@@ -568,8 +582,10 @@ form{
       height:auto;
   }
   .item {
-  	width:auto;
+   width:auto;
       height: 300px;
       margin: 0px 3px 0px 3px;
       padding:3px;
-}
+  }
+
+    }
