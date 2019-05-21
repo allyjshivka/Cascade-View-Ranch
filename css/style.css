@@ -402,6 +402,27 @@ a {
     margin: 10px 0;
 }
 
+.fa-instagram {
+   color: #ffffff;
+   font-size: 24px;
+   text-align: none;
+   margin: 10px 2px;
+}
+
+.fa-facebook {
+   color: #ffffff;
+   font-size: 24px;
+   text-align: none;
+   margin: 10px 2px;
+}
+
+.fa-twitter {
+   color: #ffffff;
+   font-size: 24px;
+   text-align: none;
+   margin: 10px 2px;
+}
+
 /*********Hiding Images At Specific Screen Sizes**********/
 
 /*Hides When on Desktop, Shows on Mobile*/
