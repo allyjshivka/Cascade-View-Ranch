@@ -2,7 +2,9 @@
 
 /*Reset*/
 *{box-sizing: border-box;}
-html,body {margin: 0;}
+html,body {
+
+    margin: 0;}
 div,section,header,footer,nav {
     float: left;
     display: block;
@@ -91,7 +93,7 @@ div,section,header,footer,nav {
 /*Makes images fit proportionally into wherever they are*/
 img {
     max-width: 100%;
-    height: auto;
+    height: 350px;
     margin: 0;
     padding: 0;
 }
@@ -139,17 +141,13 @@ img {
 
 .black-btn {
     background-color: #000000;
-    color: #ffffff !important;
+    color: #ffffff;
     font-size:16px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     padding: 2% 3%;
     margin: 1% 2%;
     text-decoration:none;
-}
-
-.black-btn a {
-    color: #ffffff;
 }
 
 /*Making Sure the Link Color Doesn't Change After You Visit The Page*/
@@ -161,18 +159,17 @@ img {
 
 #storeslider.owl-carousel .owl-stage-outer,
 #productslider.owl-carousel .owl-stage-outer,
-#eventslider.owl-carousel .owl-stage-outer,
-#homeslider.owl-carousel .owl-stage-outer{
+#eventslider.owl-carousel .owl-stage-outer{
    float:none;
 }
 
 #storeslider.owl-carousel .item,
 #productslider.owl-carousel .item,
-#eventslider.owl-carousel .item,
-#homeslider.owl-carousel .owl-stage-outer{
+#eventslider.owl-carousel .item{
    width:100%;
    text-align: center;
 }
+
 
 /*********Home Page Slideshow**********/
 
@@ -183,6 +180,7 @@ img {
     width: 1000px;
     height: 400px;
     max-height: 100%;
+
     background: url("img/img10.jpg");
     animation: slide 25s infinite;
     background-size: cover;
@@ -247,7 +245,9 @@ img {
      float: left;
      width: 25%;
      padding: 15px;
+
  }
+
 .seasonal:after {
   content: "";
   display: table;
@@ -320,6 +320,23 @@ img {
     color: white;
     line-height: 30px;
     word-spacing: 3px;
+}
+
+@media screen and (max-width:600px;) {
+  .sale {
+    width: 100%;
+    height:200px;
+  }
+}
+.images{
+    width: 100%;
+    height:auto;
+}
+.item {
+	width:auto;
+    height: 300px;
+    margin: 0px 3px 0px 3px;
+    padding:3px;
 }
 
 
@@ -395,10 +412,6 @@ p {
     margin: 5px 0;
 }
 
-a {
-    text-decoration: none;
-}
-
 .white-text {
     color: #ffffff;
 }
@@ -416,27 +429,6 @@ a {
 .owl-theme .owl-nav{
     float: none;
     margin: 10px 0;
-}
-
-.fa-instagram {
-   color: #ffffff;
-   font-size: 24px;
-   text-align: none;
-   margin: 10px 2px;
-}
-
-.fa-facebook {
-   color: #ffffff;
-   font-size: 24px;
-   text-align: none;
-   margin: 10px 2px;
-}
-
-.fa-twitter {
-   color: #ffffff;
-   font-size: 24px;
-   text-align: none;
-   margin: 10px 2px;
 }
 
 /*********Hiding Images At Specific Screen Sizes**********/
@@ -574,20 +566,9 @@ form{
     text-align:center;
     }
 
+    /*Homepage Slideshow*/
     .sale {
       width: 100%;
       height:200px;
     }
-  }
-  .images{
-      width: 100%;
-      height:auto;
-  }
-  .item {
-   width:auto;
-      height: 300px;
-      margin: 0px 3px 0px 3px;
-      padding:3px;
-  }
-
-    }
+}
