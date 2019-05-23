@@ -397,6 +397,10 @@ p {
     margin: 5px 0;
 }
 
+.fa-phone {
+    font-size: 24px;
+}
+
 a {
     text-decoration: none;
 }
