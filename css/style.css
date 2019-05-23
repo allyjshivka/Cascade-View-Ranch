@@ -186,7 +186,7 @@ img {
     background: url("img/img10.jpg");
     animation: slide 25s infinite;
     background-size: cover;
-    margin: 50px 300px 50px 270px;
+   margin: 50px 200px 50px 170px;
     padding:40px 40px 40px 0px;
     box-shadow: 0px 0px 5px 2px grey;
     background-position: center;
