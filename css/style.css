@@ -130,6 +130,7 @@ img {
     padding: 2% 3%;
     margin: 1% 2%;
     text-decoration:none;
+	display:inline-block;
 }
 
 /*Making Sure the Link Color Doesn't Change After You Visit The Page*/
@@ -143,9 +144,10 @@ img {
     font-size:16px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
-    padding: 3%;
-    margin: 5px;
+    padding: 1% 2%;
+    margin: 1%;
     text-decoration:none;
+	display:inline-block;
 }
 
 .black-btn a {
