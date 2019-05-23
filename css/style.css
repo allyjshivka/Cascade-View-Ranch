@@ -190,6 +190,7 @@ img {
     padding:40px 40px 40px 0px;
     box-shadow: 0px 0px 5px 2px grey;
     background-position: center;
+	float:none;
 }
 
 @keyframes slide {
